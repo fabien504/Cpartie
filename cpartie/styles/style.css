@@ -117,6 +117,9 @@ html{
     display:none;
 } 
 
+.exit{
+    cursor: pointer;
+}
 /********************************************************************************************/
 /**************************************footer***********************************************/
 /******************************************************************************************/
@@ -162,7 +165,6 @@ html{
 
 .cp-formcontact input{
    width:248px;
-
 }
 
 .cp-formcontact{
@@ -278,6 +280,20 @@ html{
 
     .topbar img{
         margin-left: 90px;
+    }
+
+    .cp-navfooter2{
+        padding:0;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    .cp-formcontact textarea{
+        width:180px;
+    }
+
+    .cp-formcontact input{
+       width:180px;
     }
 }
 

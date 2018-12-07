@@ -19,6 +19,9 @@
 	    <div class="cp-hamburger">
 	    	<a href=""><img src="<?php bloginfo('template_url')?>/images/menu.png" alt="menu"></a>
 	    	<div class="cp-menutel">
+	    		<span class="exit" style="font-size: 30px; color: white;">
+	    			<i class="far fa-times-circle"></i>
+	    		</span>
 		    	<a class="first" href="">Concept</a>
 		        <a href="">Evénements</a>
 		        <a href="">Où jouer ?</a>

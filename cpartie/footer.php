@@ -52,14 +52,14 @@
 /****************ATTENTE CHARGEMENT DE LA PAGE*********/
 $(document).ready(function(){
 /*******************************************************/
-	$('.cp-hamburger').on('click',function(event) {
+	$('.cp-hamburger img').on('click',function(event) {
 		event.preventDefault();
 		$('.cp-menutel').toggleClass('with--sidebar');
 		$('html').css('overflow-y', 'hidden'); 
 		$('body').toggleClass('site-cache');
 	});
 
-	$('.cp-home').click(function(e){
+	$('.exit').click(function(e){
       	$('.cp-menutel').removeClass('with--sidebar');
       	$('html').css('overflow-y','scroll');
     })
