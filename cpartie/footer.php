@@ -39,8 +39,8 @@
 				</div>
 				<div class="row justify-content-center cp-footerbas">
 					<a  class="col-sm-4 col-md-3 col-lg-2" href="">Copyright</a>
-					<a class="col-sm-4 col-md-3 col-lg-2" href="http://localhost/cyber1819/Cpartie/cgu/">CGU</a>
-					<a class="col-sm-4 col-md-3 col-lg-2" href="">Politique de confidentialité</a>	
+					<a class="col-sm-4 col-md-3 col-lg-2" href="<?php bloginfo('url')?>/cgu">CGU</a>
+					<a class="col-sm-4 col-md-3 col-lg-2" href="<?php bloginfo('url')?>/donnees-personnelles">Politique de confidentialité</a>	
 				</div>
 			</div>
 		</footer>

@@ -264,8 +264,30 @@ html{
 /**************************************CGU***********************************************/
 /***************************************************************************************/
 
+.cp-dp{
+    margin: 90px;
+}
+
+.cp-dp li{
+    white-space: normal !important;
+}
+
+.cp-dp img{
+    width: 20%;
+   margin: 0 auto;
+   border-radius: 20px;
+}
+
+/**********************************************************************************************************/
+/**************************************Donnees personnelles***********************************************/
+/********************************************************************************************************/
+
 .cp-cgu{
-    margin: 0;
+    margin: 90px;
+}
+
+.cp-cgu li{
+    white-space: normal !important;
 }
 
 
@@ -313,13 +335,17 @@ html{
     }
 }
 
-@media screen and (max-width: 1130px) {
+@media screen and (max-width: 1150px) {
     .cp-menuheader2{
         display:none;
     }
 
+    .cp-menuheader>a{
+        margin: 0;
+    }
+
     .cp-hamburger{
-        display: inline-block;
+        display: inherit;
         float: right;
         margin-right:70px;
     } 
@@ -406,7 +432,7 @@ html{
     }
 
     .cp-hamburger{
-        display: inline-block;
+        display: inherit;
         float: right;
         margin-right:10px;  
     } 
@@ -417,6 +443,14 @@ html{
 
     .topbar .connexion{
         margin-right:10px;
+    }
+
+    .cp-cgu{
+        margin:10px;
+    }
+
+    .cp-dp{
+        margin:10px;
     }
 }
 
