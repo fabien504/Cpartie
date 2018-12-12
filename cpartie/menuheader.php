@@ -23,7 +23,7 @@
 	    			<i class="far fa-times-circle"></i>
 	    		</span>
 		    	<a class="first" href="">Concept</a>
-		        <a href="">Evénements</a>
+		        <a href="<?php bloginfo('url')?>/evenements">Evénements</a>
 		        <a href="">Où jouer ?</a>
 		        <a href="">Mon espace</a>
 		        <a href="<?php bloginfo('url') ?>/blog">Blog</a>

@@ -256,10 +256,45 @@ html{
 .reseau{
     text-align: center;
     margin-top: 10px;
+    margin-bottom: 50px;
+}
+
+.reseau h3{
+    margin-bottom: 50px;
 }
 
 
+.reseau img{
+    width: 80px;
+    height:80px;
+    margin-left: 40px;
+}
 
+.reseau select{
+    margin-left: 100px;
+    width:200px;
+}
+
+.bouton-cpartie {
+    cursor: pointer;
+    margin-left: 100px;
+    display: inline-block;
+    background: #F1770E;
+    width: 150px;
+    color: white;
+    border:solid #F1770E thin;
+    border-radius:5px;
+    padding: 2px;
+    box-shadow: 0 5px 20px #707070;
+}
+
+.bouton-cpartie:hover{
+    transform: scale(1.1);
+    transition: .2s;
+}
+.slideshow_container{
+    margin: 0 auto !important;
+}
 /*****************************************************************************************/
 /**************************************CGU***********************************************/
 /***************************************************************************************/
@@ -273,9 +308,10 @@ html{
 }
 
 .cp-dp img{
-    width: 20%;
-   margin: 0 auto;
-   border-radius: 20px;
+    width: 200px;
+    height:200px;
+    margin: 0 auto;
+    border-radius: 20px;
 }
 
 /**********************************************************************************************************/

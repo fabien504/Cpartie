@@ -1,0 +1,27 @@
+img{
+	width:350px;
+
+}
+figcaption{
+	background-color: #2F4858;
+	color:white;
+	padding-left: 10px;
+	height:125px;
+}
+.titre_event{
+	display: inline-block;
+}
+.date_event{
+	display: inline-block;
+	margin-left: 140px;
+}
+.type_event{
+	display: inline-block;
+}
+.info_event{
+	background-color: #F1770E;
+	display: inline-block;
+	margin-left: 154px;
+	padding: 10px;
+	border-radius: 10px 0 0 0;
+}
