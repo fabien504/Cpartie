@@ -6,6 +6,10 @@ html{
     overflow-x: hidden;
 }
 
+body{
+    color: #2f4858;
+}
+
 /**********************************************************/
 /*************************Header**************************/
 /********************************************************/
@@ -53,7 +57,7 @@ html{
     height:99px;
     width:280px;
     margin-top:40px;
-    margin-left: 185px;
+    margin-left: 110px;
 }
 
 .cp-menuheader a{
@@ -237,10 +241,6 @@ html{
     text-align: justify;
 }
 
-.v{
-    height: 500px;
-}
-
 .bouton-participe {
     display:block;
     background: #F1770E;
@@ -263,11 +263,10 @@ html{
     margin-bottom: 50px;
 }
 
-
 .reseau img{
     width: 80px;
     height:80px;
-    margin-left: 40px;
+    margin-right: 40px;
 }
 
 .reseau select{
@@ -292,9 +291,93 @@ html{
     transform: scale(1.1);
     transition: .2s;
 }
-.slideshow_container{
-    margin: 0 auto !important;
+/**********************************************actu********************************************/
+
+.actualites{
+    border: 1px solid #2f4858;
+    margin-bottom: 50px;
 }
+
+.actu{
+    background:url('../images/fe.jpg') no-repeat;
+    background-size: cover;
+    height:350px;
+    background-position:20% 80%;
+    filter:blur(8px);
+    margin: 7px 0;
+}
+
+.texte{
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.texte h2{
+    font-weight: bold;
+    font-size: 35px;
+}
+
+.hover2{
+    width:100%;
+    height: 350px;
+    background-color: rgba(255,255,255,0.5);
+    text-align: justify;
+    z-index: 10;
+}
+/*******************************************************************************************/
+/**************************************Carrousel***********************************************/
+/******************************************************************************************/
+
+.item-1{
+    background:url('../images/p.png') no-repeat;
+    background-size: cover;
+    height:350px;
+    background-position: center;  
+}
+
+.item-2{
+    background:url('../images/bg.jpg') no-repeat;
+    background-size: cover;
+    height:350px;
+    background-position: center;
+}
+
+.left, .right{cursor:pointer}
+
+.left{
+    float: left;
+    position: relative;
+    top:-175px;
+    transform:scale(2.5);
+    margin-left: 10px;
+    color:#F1770E;
+}
+.right{
+    float:right;
+    position: relative;
+    top:-175px;
+    transform:scale(2.5);
+    margin-right: 10px;
+    color:#F1770E;
+}
+
+.slider{
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 50px;
+}
+.slider p{
+    margin-top: 5px;
+    color:#F1770E;;
+}
+
+.display-container{
+    border: 1px solid #2f4858;
+}
+
+
 /*****************************************************************************************/
 /**************************************CGU***********************************************/
 /***************************************************************************************/
@@ -326,8 +409,37 @@ html{
     white-space: normal !important;
 }
 
+/********************************************************************************************/
+/**************************************Partie Adrien***********************************************/
+/******************************************************************************************/
 
+img{
+    width:350px;
 
+}
+figcaption{
+    background-color: #2F4858;
+    color:white;
+    padding-left: 10px;
+    height:125px;
+}
+.titre_event{
+    display: inline-block;
+}
+.date_event{
+    display: inline-block;
+    margin-left: 140px;
+}
+.type_event{
+    display: inline-block;
+}
+.info_event{
+    background-color: #F1770E;
+    display: inline-block;
+    margin-left: 154px;
+    padding: 10px;
+    border-radius: 10px 0 0 0;
+}
 
 
 /*************************Media Queries**************************/

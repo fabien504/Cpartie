@@ -3,34 +3,56 @@
 <
 <div class="container cp-blog">
 
-		<h1>Blog de l'actualité sur l'univers du <strong>jeu</strong> </h1> 
-	<p>Bienvenue à toi cher coéquipier sur la page d’actualité du jeu! Ici c’est une véritable chasse aux trésors des informations pour être au courant des dernières tendances du divertissement.</p> 
-	<p>Si pour toi Carcassone ne t’évoque qu’une ville du Sud, Risk la probabilité  d'un péril probable, alors cette page est faîte pour toi! Ici découvre et partage tes avis avec la communauté  et devient un as du jeu. Afin de t’aider dans ta quête nous te proposons un filtre te permettant de sélectionner l’information en fonction de tes enquêtes. Prêt à  toi de jouer? </p>
+	<div class="row"> 
+		<img class="cp-imgcentraleblog img-responsive col-12" src="<?php bloginfo( "template_url" ) ?>/images/imgcentrale-blog.jpg " alt="imagelettreblog">
+	</div>
+	<div class="cp-textblog">
+				<h1>Blog et actualités des jeux de société</h1> 
+ Bienvenu à toi chère coéquipier sur la page d’actualité du jeu! Ici, c’est une véritable chasse aux trésors des informations pour être au courant des dernières tendances du divertissement.
+Si « Carcassone » ne t’évoque qu’une ville du Sud, « Risk » la probabilité d'un péril, alors cette page est faite pour toi ! Ici, découvre et partage tes avis avec la communauté et devient un as du jeu. Afin de t’aider dans ta quête nous te proposons un filtre te permettant de sélectionner l’information en fonction de tes enquêtes. Prêt ? A toi de jouer ! 
+</div>
+		
 
-	<div class="row">
-		<img class="cp-imgcentraleblog img-responsive col-12" src="<?php bloginfo( "template_url" ) ?>/images/imgcentraleblog.png " alt="imagedé">
-		</div>
 <br><br>
 
 <!-- ---------------------------------------------------sidebar ------------------------------>
-<div class="row cp-sidebar">
-<fieldset class="col-3 cp-rechercheactu">
-<form  class="cp-form" method="post" action="">
-	<label for="typeactu">Type actualité</label> <br>
-	<select name="typeactu" id="" placeholder="selectionnez type d'actualité" class="col-12">
-		<option value="sortiejeux">Sortie de nouveaux jeux</option>
-		<option value="ouvertureairedejeux">Ouverture d'une nouvelle aire de jeu</option>
-		<option value="informations"> Actualités liées à l'univers du jeu</option>
-		<option value="nosrencontres">Nos rencontres</option>
-	</select> <br> <br> <br>
-	<label for="date">
-		Saisir une date
-	</label>
-	<input type="date" name="date" placeholder="Choisissez une date"> <br> <br><br>
-	<a href="#" class="bouton-orga offset-8 col-4">Cpartie</a>
-
+<form method="post">
+  <div class="row justify-content-center cp-sidebar">
+    <div class="col-4">
+      <select class="form-control" name="typeactu" id="typeactualite" placeholder="Choix du type d'actualite">
+      	<option value="termactu">
+      		<!-- <?php 
+      		// $args=array(
+      		// 	'taxonomie'=>'type-actualite',
+      		// 	'hide_empty'=>0,
+      		// 	'title_option'=>'');
+      		// wp_list_categories($args);
+      		 ?> -->
+      		<?php 
+      		$args=array(
+      			'post_type'=>'actualite',
+      			'title_option'=>'',
+      			'tax_query'=>array(array(
+      				'taxonomy'=>'type-actualite',
+      				'field'=>'slug',
+      				'terms'=>'',	))
+      		
+      			); 
+      			$actualite=new WP_Query($args);
+      			?>
+	
+      	</option>
+      </select>
+    </div>
+    <div class="offset-1 ">
+      <input type="date" class="form-control" placeholder="Last name">
+    </div>
+    <div class="offset-1 col-1">
+    	<button name="action" type="submit" class="bouton-orga"> C PARTIE</button>
+    </div>
+  </div>
 </form>
-</fieldset>
+
 <!-------------------------------------------------------- card ----------------------------->
 	<div class="col-9">
 		
