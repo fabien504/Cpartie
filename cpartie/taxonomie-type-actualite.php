@@ -11,9 +11,6 @@
 				    <a href="#" class="btn btn-primary">Go somewhere</a>
 				    }
 			  </div>
-
-
-
 							<a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></td>
 							<td><?php the_excerpt(); ?></td>
 							<td><a rel="lightbox" href="<?php echo get_src_image_une(get_the_id(),'medium') ?>"><?php the_post_thumbnail(array(100,100)); ?></a></td>

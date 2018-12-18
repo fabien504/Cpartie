@@ -19,7 +19,7 @@
                         <img src="<?php bloginfo('template_url');?>/images/Drapeau_France.png" alt="drapeau français">Français
                     </span>
                     <div class="connexion">
-                        <a href="#">CONNEXION</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+                        <a href="<?php bloginfo('url')?>/connexion">CONNEXION</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
                         <a href="#">ESPACE PRO</a>  
                     </div>
                 </div>

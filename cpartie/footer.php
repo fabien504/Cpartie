@@ -4,7 +4,7 @@
 					<div class="col-lg-4 col-md-6 col-sm-12 cp-footermenu">
 						<h4>Menu</h4>
 						<ul>
-							<li><a href="">Concept</a></li>
+							<li><a href="<?php bloginfo('url')?>/concept">Concept</a></li>
 							<li><a href=""> Evénements</a></li>
 							<li><a href="">Où jouer?</a></li>
 							<li><a href="">Mon espace</a></li>
@@ -39,8 +39,8 @@
 				</div>
 				<div class="row justify-content-center cp-footerbas">
 					<a  class="col-sm-4 col-md-3 col-lg-2" href="">Copyright</a>
-					<a class="col-sm-4 col-md-3 col-lg-2" href="http://localhost/cyber1819/Cpartie/cgu/">CGU</a>
-					<a class="col-sm-4 col-md-3 col-lg-2" href="">Politique de confidentialité</a>	
+					<a class="col-sm-4 col-md-3 col-lg-2" href="<?php bloginfo('url')?>/cgu">CGU</a>
+					<a class="col-sm-4 col-md-3 col-lg-2" href="<?php bloginfo('url')?>/donnees-personnelles">Politique de confidentialité</a>	
 				</div>
 			</div>
 		</footer>
@@ -51,8 +51,10 @@
 /****************ATTENTE CHARGEMENT DE LA PAGE*********/
 $(document).ready(function(){
 /*******************************************************/
+
 	$('.cp-hamburger img').on('click',function(event) {
 		event.preventDefault();
+		alert("bla");
 		$('.cp-menutel').toggleClass('with--sidebar');
 		$('html').css('overflow-y', 'hidden'); 
 		$('body').toggleClass('site-cache');
@@ -62,6 +64,14 @@ $(document).ready(function(){
       	$('.cp-menutel').removeClass('with--sidebar');
       	$('html').css('overflow-y','scroll');
     })
+
+    $('display-container .right').on('click', function(event) {
+    	event.preventDefault();
+    	alert('bla');
+    	$('item-1').replaceWith('item-2', function() {
+    		
+    	});
+    });
 
 /*******************************************************/
 });
