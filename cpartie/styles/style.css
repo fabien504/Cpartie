@@ -348,23 +348,21 @@ body{
     background-position: center;
 }
 
-.left, .right{cursor:pointer}
-
-.left{
+.owl-prev{
     float: left;
     position: relative;
     top:-175px;
-    transform:scale(2.5);
+    transform:scale(5);
     margin-left: 10px;
-    color:#F1770E;
+    color:#F1770E !important;
 }
-.right{
+.owl-next{
     float:right;
     position: relative;
     top:-175px;
-    transform:scale(2.5);
+    transform:scale(5);
     margin-right: 10px;
-    color:#F1770E;
+    color:#F1770E !important;
 }
 
 .slider{

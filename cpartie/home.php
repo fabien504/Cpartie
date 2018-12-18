@@ -35,10 +35,8 @@
 <div class="row">
 	<div class="col-12 slider">
 		<h3>Les derniers événements</h3>
-		<div class="display-container">
-			<div class="mySlides item-1"></div>
-		    <span class="left">&#10094;</span>
-		    <span class="right">&#10095;</span>
+		<div class="owl-carousel owl-theme display-container">
+			<div class="mySlides item-1"></div><div class="mySlides item-2"></div>
 		</div>
 		<p><img src="<?php bloginfo('template_url'); ?>/images/rond.png">&nbsp;d'événements</p>
 	</div>
@@ -83,10 +81,10 @@
 <div class="row">
 	<div class="col-12 reseau">
 		<h3>Rejoignez-nous !</h3>
-		<img src="<?php bloginfo('template_url'); ?>/images/facebook.png" alt="facebook">
-		<img src="<?php bloginfo('template_url'); ?>/images/twitter.png" alt="twitter">
-		<img src="<?php bloginfo('template_url'); ?>/images/insta.png" alt="instagram">
-		<img src="<?php bloginfo('template_url'); ?>/images/YouTube.png" alt="youtube">
+		<a href="http://www.facebook.com/C-Partie-507143886438100"><img src="<?php bloginfo('template_url'); ?>/images/facebook.png" alt="facebook"></a>
+		<a href="https://twitter.com/C_Partie_"><img src="<?php bloginfo('template_url'); ?>/images/twitter.png" alt="twitter"></a>
+		<a href="http://www.instagram.com/_c_partie_"><img src="<?php bloginfo('template_url'); ?>/images/insta.png" alt="instagram"></a>
+		<a href="https://www.youtube.com/channel/UCL71j32jn3zxyr2gsHxgyPQ"><img src="<?php bloginfo('template_url'); ?>/images/YouTube.png" alt="youtube"></a>
 	</div>
 </div>
 <?php get_footer(); ?>

@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css">
     <link rel="stylesheet" href="<?php bloginfo('template_url');?>/styles/style.css">
+    <link rel="stylesheet" href="<?php bloginfo('template_url');?>/js/owl.carousel/dist/assets/owl.carousel.min.css" />
     <title>Cpartie</title>
     <?php wp_head(); ?>
     </head>

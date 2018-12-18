@@ -47,11 +47,12 @@
 	</body>
 </div>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="<?php bloginfo('template_url');?>/js/owl.carousel/dist/owl.carousel.min.js"></script>
+<script src="<?php bloginfo('template_url');?>/js/carousel.js"></script>
 <script>
 /****************ATTENTE CHARGEMENT DE LA PAGE*********/
 $(document).ready(function(){
 /*******************************************************/
-
 	$('.cp-hamburger img').on('click',function(event) {
 		event.preventDefault();
 		alert("bla");
@@ -63,13 +64,12 @@ $(document).ready(function(){
 	$('.exit').click(function(e){
       	$('.cp-menutel').removeClass('with--sidebar');
       	$('html').css('overflow-y','scroll');
-    })
+    });
 
     $('display-container .right').on('click', function(event) {
     	event.preventDefault();
     	alert('bla');
-    	$('item-1').replaceWith('item-2', function() {
-    		
+    	$('item-1').replaceWith('item-2', function() {	
     	});
     });
 
