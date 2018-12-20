@@ -7,7 +7,7 @@ get_header();
 		<input type="text"><br>
 		Password<br>
 		<input type="text">
-		<button class="bouton-connexion">Se connecter</button><button class="bouton-connexion float">Rejoins-nous !</button>
+		<button class="bouton-connexion">Se connecter</button><a href="<?php bloginfo('url')?>/inscription"><button class="bouton-connexion float">Rejoins-nous !</button></a>
 		<div class="centre"><a href="<?php bloginfo('url')?>/mdpoublie">Mot de passe perdu ?</a></div>
 	</div>
 </div>

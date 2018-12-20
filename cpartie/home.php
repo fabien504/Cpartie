@@ -47,7 +47,7 @@
 			<h2>Les dernières actualités</h2>
 			<div class="row test1">
 				<figure class=" col-sm-12 col-md-6 col-lg-4">
-					<a href="" class="fav-coeur"><i class="far fa-heart"></i></a>
+					<i class="far fa-heart"></i>
 					<img class="img-home img-fluid" src="<?php bloginfo('template_url'); ?>/images/image1.jpg">
 					<figcaption class="fig-home row">
 						<p class="col-8">Nom de l'événement</p>
@@ -56,7 +56,7 @@
 					</figcaption>
 				</figure>
 				<figure class=" col-sm-12 col-md-6 col-lg-4">
-					<a href="" class="fav-coeur"><i class="far fa-heart"></i></a>
+					<i class="far fa-heart"></i>
 					<img class="img-home img-fluid" src="<?php bloginfo('template_url'); ?>/images/image1.jpg">
 					<figcaption class="fig-home row">
 						<p class="col-8">Nom de l'événement</p>
@@ -65,7 +65,7 @@
 					</figcaption>
 				</figure>
 				<figure class=" col-sm-12 col-md-6 col-lg-4">
-					<a href="" class="fav-coeur"><i class="far fa-heart"></i></a>
+					<i class="far fa-heart"></i>
 					<img class="img-home img-fluid" src="<?php bloginfo('template_url'); ?>/images/image1.jpg">
 					<figcaption class="fig-home row">
 						<p class="col-8">Nom de l'événement</p>

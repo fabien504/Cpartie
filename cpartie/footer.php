@@ -38,9 +38,10 @@
 					</div>			
 				</div>
 				<div class="row justify-content-center cp-footerbas">
-					<a  class="col-sm-4 col-md-3 col-lg-2" href="">Copyright</a>
-					<a class="col-sm-4 col-md-3 col-lg-2" href="<?php bloginfo('url')?>/cgu">CGU</a>
-					<a class="col-sm-4 col-md-3 col-lg-2" href="<?php bloginfo('url')?>/donnees-personnelles">Politique de confidentialité</a>	
+					<a  class="col-sm-3 col-md-2 " href="">Copyright</a>
+					<a class="col-sm-3 col-md-2 " href="<?php bloginfo('url')?>/cgu">CGU</a>
+					<a class="col-sm-3 col-md-2" href="<?php bloginfo('url')?>/donnees-personnelles">Politique de confidentialité</a>
+					<a class="col-sm-3 col-md-2" href="<?php bloginfo('url')?>/donnees-personnelles">Mentions légales</a>		
 				</div>
 			</div>
 		</footer>
@@ -55,7 +56,6 @@ $(document).ready(function(){
 /*******************************************************/
 	$('.cp-hamburger img').on('click',function(event) {
 		event.preventDefault();
-		alert("bla");
 		$('.cp-menutel').toggleClass('with--sidebar');
 		$('html').css('overflow-y', 'hidden'); 
 		$('body').toggleClass('site-cache');
@@ -71,6 +71,11 @@ $(document).ready(function(){
     	alert('bla');
     	$('item-1').replaceWith('item-2', function() {	
     	});
+    });
+
+    $('i').click(function(event) {
+    	$(this).toggleClass('fas');
+    	$(this).toggleClass('far');
     });
 
 /*******************************************************/

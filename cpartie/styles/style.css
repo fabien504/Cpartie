@@ -1,3 +1,8 @@
+/**********************Police *********************************/
+@import url('https://fonts.googleapis.com/css?family=Courgette');
+@import url('https://fonts.googleapis.com/css?family=Roboto')
+/**************************************************************/
+
 *{
     box-sizing: border-box;
 }
@@ -204,21 +209,57 @@ body{
 }
 
 /**********************************************Blog actu********************************************/
-.cp-imgcentraleblog{
-    height: 300px;
-}
-.cp-blogpresentation{
-    text-align: justify;
-}
-.cp-rechercheactu {
-    border: thin solid black;
-    padding: 0;
-}
-.cp-form{
-    padding:10px;
-}
-.cp-blog h1{
+.cp-blog {
     margin-top: 20px;
+    min-height: 600px;
+}
+.cpimgblog{
+    background:url('../images/imgblog.png') no-repeat;
+    background-size: cover;
+    height:350px;
+    background-position: center;
+}
+.cp-textblog{
+    text-align: justify;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    margin-top: 10px;
+}
+.cp-sidebar{
+    margin-top:20px;
+    text-align: center;
+}
+
+.cp-blog h1{
+    font-family: 'Courgette', cursive;
+}
+
+.cp-blog h2{
+    margin-top: 40px;
+    text-align: center;
+    color:#2F4858;
+    font-size: 35px;
+    font-weight: bold;
+}
+.cp-textcardactu{
+    background-color: #F9C293;
+    text-align: center;
+    margin: 20px 0;
+}
+.cp-textcardactu td{
+    margin-top: 10px;
+}
+.cp-textcardactu a{
+    background: #F1770E;
+    width: 170px;
+    color: white;
+    border:solid #F1770E thin;
+    border-radius:5px;
+    padding: 10px;
+    box-shadow: 0 5px 20px #707070;
+}
+.cp-barrerecherche{
+    margin-right: 30px;
 }
 
 /*****************************************************************************************/
@@ -226,10 +267,10 @@ body{
 /***************************************************************************************/
 
 .bghome{
-    background:url('../images/bg.jpg') no-repeat;
+    background:url('../images/bg2.jpg') no-repeat;
     background-size: cover;
     height:350px;
-    background-position: center;
+    background-position: right 50% bottom 25%;
 }
 
 .hover{
@@ -458,6 +499,8 @@ body{
     text-decoration: none;
 }
 
+/**********************************************mdp********************************************/
+
 .cp-mdp{
     background: #2F4858;
     height: 200px;
@@ -479,6 +522,15 @@ body{
  .float{
     float:right;
  }
+/**********************************************Inscription********************************************/
+
+.cp-inscription input{
+    display: inline-block;
+}
+
+
+
+
 
  
 /********************************************************************************************/
@@ -681,6 +733,19 @@ figure a:hover{
     .cp-formcontact{
         border-right: none;
     }
+}
+
+@media screen and (max-width: 866px) {
+    .reseau select{
+        width:150px;
+        margin-left: 20px;
+        margin-bottom: 5px;
+    }
+
+    .bouton-cpartie{
+        margin-left: 20px;
+    }
+
 }
 
 @media screen and (max-width: 767px) {
