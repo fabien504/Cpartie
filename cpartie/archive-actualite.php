@@ -36,6 +36,7 @@ Si « Carcassone » ne t’évoque qu’une ville du Sud, « Risk » la probabil
 <!-- ---------------------------------------------------sidebar ------------------------------>
 <div class="row justify-content-center cp-sidebar">
 	<form method="post"class="form-inline col-12">
+ 		  Actualités triées par... &nbsp
 	      <select class="form-control cp-barrerecherche" name="typeactu" id="typeactualite">
 	      	<option value=""><?= $option[0]; ?></option>
 	      	<option value=""><?= $option[1]; ?></option>
@@ -66,13 +67,11 @@ Si « Carcassone » ne t’évoque qu’une ville du Sud, « Risk » la probabil
 		</tr>
 		<tr>
 			<td>Type <?php $vv=get_the_terms( get_the_ID(), 'type-actualite'); ?></td>
-			<?php var_dump($vv); ?>
 		</tr>
 		<tr>
 		<td><a href="<?php the_permalink( ) ?>" class="btn-voirplus">Voir plus</a></td>
 	</tr>
 	</table>
 	<?php } ?>
-	</div>
-	
+	</div>	
 <?php get_footer(); ?>
