@@ -5,11 +5,11 @@
 						<h4>Menu</h4>
 						<ul>
 							<li><a href="<?php bloginfo('url')?>/concept">Concept</a></li>
-							<li><a href=""> Evénements</a></li>
-							<li><a href="">Où jouer?</a></li>
-							<li><a href="">Mon espace</a></li>
-							<li><a href=""> Actualités</a></li>
-							<li><a href="">Organiser une partie</a></li>
+							<li><a href="<?php bloginfo('url')?>/evenement"> Evénements</a></li>
+							<li><a href="<?php bloginfo('url')?>/concept">Où jouer?</a></li>
+							<li><a href="<?php bloginfo('url')?>/monespace">Mon espace</a></li>
+							<li><a href="<?php bloginfo('url')?>/actualite"> Actualités</a></li>
+							<li><a href="<?php bloginfo('url')?>/organise">Organiser une partie</a></li>
 						</ul>
 					</div>
 					<div class="col-lg-4 col-md-6 col-sm-12 cp-formcontact">
@@ -41,7 +41,7 @@
 					<a  class="col-sm-3 col-md-2 " href="">Copyright</a>
 					<a class="col-sm-3 col-md-2 " href="<?php bloginfo('url')?>/cgu">CGU</a>
 					<a class="col-sm-3 col-md-2" href="<?php bloginfo('url')?>/donnees-personnelles">Politique de confidentialité</a>
-					<a class="col-sm-3 col-md-2" href="<?php bloginfo('url')?>/donnees-personnelles">Mentions légales</a>		
+					<a class="col-sm-3 col-md-2" href="<?php bloginfo('url')?>/donnees-personnelles#cookie">Mentions légales</a>		
 				</div>
 			</div>
 		</footer>

@@ -14,7 +14,7 @@
 	        <a href="">Où jouer ?</a>
 	        <a href="<?php bloginfo('url')?>/monespace">Mon espace</a>
 	        <a href="<?php bloginfo('url') ?>/actualite">Blog</a>
-	        <a href="<?php bloginfo('url') ?>/connexion"><span class='bouton-orga'>Organiser une partie</span></a>
+	        <a href="<?php bloginfo('url') ?>/organise"><span class='bouton-orga'>Organiser une partie</span></a>
 	    </div>
 	    <div class="cp-hamburger">
 	    	<a href=""><img src="<?php bloginfo('template_url')?>/images/menu.png" alt="menu"></a>
@@ -26,8 +26,8 @@
 		        <a href="<?php bloginfo('url')?>/evenements">Evénements</a>
 		        <a href="">Où jouer ?</a>
 		        <a href="<?php bloginfo('url') ?>/monespace">Mon espace</a>
-		        <a href="<?php bloginfo('url') ?>/blog">Blog</a>
-		        <a href="<?php bloginfo('url') ?>/connexion">Organiser une partie</a>
+		        <a href="<?php bloginfo('url') ?>/actualite">Blog</a>
+		        <a href="<?php bloginfo('url') ?>/organise">Organiser une partie</a>
 	        </div> 
 	    </div>
 	</div>

@@ -3,7 +3,7 @@ get_header();
 ?>
 <div class="cp-monespace row">
 	<div class="cp-pseudo">
-    	<div class="imgpro">
+    <div class="imgpro">
 			<img class="photoprofil" src="<?php bloginfo('template_url')?>/images/img-blog/cookie.jpg" alt="votre photo de profil">
 			<p>Pseudo</p>	
 		</div>
