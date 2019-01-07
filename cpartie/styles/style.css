@@ -459,11 +459,11 @@ body{
     margin: 0 auto;
 }
 
-.cp-carre>*{
+.cp-carre *{
     margin-bottom:3px;
 }
 
-.cp-carre>input{
+.cp-carre input{
     display: block;
 }
 
@@ -629,7 +629,7 @@ body{
 
 .cp-pseudo{
     background: #637682;
-    height:610px;
+    height:auto;
     width:35%;
     color: white; 
     margin-bottom:10px;
@@ -722,8 +722,8 @@ body{
     margin-bottom:10px;
     padding-top:10px;
     position: relative;
-    left:35.8%;
-    top:-310px;
+    left:35.7%;
+    top:-355px;
 }
 
 .partieshistorique{
@@ -838,11 +838,11 @@ body{
 .imgpro2{
     color:#2F4858;
     position: relative;
-    bottom:50px;
+    bottom:60px;
 }
 .cp-domicile textarea{
-    margin-left:60px;
-    margin-top:-40px;
+    margin-left:20%;
+    margin-top:-60px;
     background: #637682;
     border:#637682;
     color: #ffffff;
@@ -923,11 +923,11 @@ body{
     margin-right:0;
 }
 .mg-left{
-    margin-left:110px;
+    margin-left:18%;
 }
 
 .type{
-    margin-bottom:50px;
+    margin-bottom:30px;
 }
 
 .bouton-orgacpartie{
